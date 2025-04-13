@@ -1,0 +1,8 @@
+python-dotenv
+mcp[cli]
+httpx
+PyMuPDF
+faiss-cpu
+sentence-transformers
+pytesseract
+pillow
