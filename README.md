@@ -24,7 +24,7 @@ code ~/Library/Application\ Support/Claude/claude_desktop_config.json
             "command": "/Users/XXX/.local/bin/uv",
             "args": [
                 "--directory",
-                "/Users/XXX/Documents/rag_mcp",
+                "/Users/XXX/Documents/RAG_MCP",
                 "run",
                 "rag.py"
             ]
