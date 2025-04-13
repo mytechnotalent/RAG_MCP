@@ -45,7 +45,7 @@ uv run rag.py
 
 ## Step 7: Run MCP client and query
 ```bash
-Parse the pdfs and tell me about 18 Church St and what significance it has.
+Parse the pdfs and tell me about 18 Church St. and what significance it has.
 ```
 
 <br>
