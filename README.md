@@ -14,7 +14,7 @@ uv pip install -r requirements.txt
 brew install tesseract
 ```
 
-## Step 2: Add config to your MCP client
+## Step 2a: Add config to the Claude MCP client
 ```bash
 code ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ...
@@ -33,12 +33,27 @@ code ~/Library/Application\ Support/Claude/claude_desktop_config.json
 }
 ```
 
+## Step 2b: Add config to the Cursor MCP client
+```bash
+code ~/.cursor/mcp.json
+...
+{
+    "mcpServers": {
+        "rag": {
+            "command": "/Users/XXX/Documents/RAG_MCP/start.sh",
+            "args": []
+        }
+    }
+}
+```
+
 ## Step 5: Make MCP server executable
 ```bash
+chmod +x start.sh
 chmod +x rag.py
 ```
 
-## Step 6: Run MCP server
+## Step 6: Run MCP server (Claude Desktop)
 ```bash
 uv run rag.py
 ```
