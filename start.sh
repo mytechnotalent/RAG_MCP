@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /Users/XXX/Documents/RAG_MCP
+cd ~/Documents/RAG_MCP
 set -o allexport
 source .env 2>/dev/null
 set +o allexport
