@@ -40,7 +40,7 @@ code ~/.cursor/mcp.json
 {
     "mcpServers": {
         "rag": {
-            "command": "~/Documents/RAG_MCP/start.sh",
+            "command": "/Users/XXX/Documents/RAG_MCP/start.sh",
             "args": []
         }
     }
